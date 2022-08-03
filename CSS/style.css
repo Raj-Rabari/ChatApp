@@ -1,0 +1,70 @@
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: linear-gradient(white,grey);
+    height: 100vh;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: cornflowerblue;
+    margin: auto;
+    height: 60vh;
+    border-radius: 5px;
+    padding: 35px;
+    overflow-y: auto;
+    margin-bottom: 20px ;
+}
+
+.message{
+    background-color: burlywood;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.left{
+    float: left;
+    clear:both
+}
+
+.right{
+    float:right;
+    clear:both;
+}
+
+#send-container{
+    display: none;
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.login-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+}
+
+#msginp{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+#send-btn{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 15px;
+}
